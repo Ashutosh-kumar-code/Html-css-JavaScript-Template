@@ -1,0 +1,516 @@
+body {
+    background-color: rgb(214, 205, 190);
+}
+
+.navbar {
+    background-color: rgb(201, 167, 108);
+}
+
+.navbar-dark {
+    background-color: rgb(160, 104, 20) !important;
+}
+
+.formpart {
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+}
+
+
+.formpart .row>* {
+    flex-shrink: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: var(--bs-gutter-y);
+
+
+}
+
+.leftform {
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgb(236, 180, 96);
+}
+
+.leftform h2 {
+    padding-top: 60px;
+}
+
+.leftform .inp1 {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(206, 157, 79);
+}
+
+.leftform input {
+    border: none;
+}
+
+.leftform .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: rgb(206, 157, 79);
+    outline: 0;
+    box-shadow: none;
+}
+
+.email,
+.person,
+.lock,
+.phone,
+.child,
+.cube {
+    margin-top: 2px;
+    font-size: 30px;
+    color: rgb(206, 157, 79);
+
+}
+
+.leftform .inp2 {
+    display: flex !important;
+    flex-direction: row !important;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(206, 157, 79);
+}
+
+.leftform .inp3 {
+    display: flex !important;
+    flex-direction: row !important;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(206, 157, 79);
+}
+
+.leftform .inp4 {
+    display: flex !important;
+    flex-direction: row !important;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(206, 157, 79);
+}
+
+.leftform .inp5 {
+    display: flex !important;
+    flex-direction: row !important;
+
+    padding-bottom: 5px;
+
+}
+
+.inp5 div {
+    margin-top: 6px;
+    margin-left: 10px;
+    /* margin-right: 20px; */
+}
+
+.inp5 h5 {
+    color: rgb(116, 115, 114);
+    margin-top: 5px;
+    padding-left: 12px;
+    padding-right: 22px;
+}
+
+.form-check-input {
+
+    background-color: rgb(206, 157, 79);
+}
+
+.form-check-input:checked {
+    background-color: rgb(206, 157, 79);
+    border-color: rgb(206, 157, 79);
+    box-shadow: none !important;
+}
+
+.leftform button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(206, 157, 79);
+
+    border: none;
+    color: #fff;
+}
+
+
+.imgpart {
+    background-image: url(/asset/images/img-1.png);
+    background-size: cover;
+    opacity: 0.9;
+    height: 710px !important;
+    box-shadow: 0 5px 5px rgb(236, 180, 96);
+
+}
+
+.imgpart .overimg {
+
+    background: rgba(44, 44, 44, 0.733) !important;
+    height: 710px !important;
+    opacity: 0.6;
+
+}
+
+.imgpart .imgtext {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 710px !important;
+    color: #fff;
+
+}
+
+.imgpart .imgtext h5,
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold !important;
+}
+
+.imgpart .imgtext h1 {
+    font-size: 45px;
+}
+
+.imgpart .imgtext h5 {
+    font-size: 25px;
+}
+
+/* --------------------------- */
+
+#nameErr,
+#emailErr,
+#psdErr,
+#numErr,
+#genderErr {
+    color: red;
+}
+
+
+.formshadow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+/* -------------------- */
+
+.dark-mode {
+    background-color: rgb(206, 157, 79);
+
+}
+
+.dark-log {
+    color: rgb(206, 157, 79);
+}
+
+.dark-leftform {
+
+    box-shadow: 5px 5px 5px rgb(119, 119, 119);
+}
+
+.img-dark {
+    box-shadow: 0 5px 5px rgb(119, 119, 119);
+}
+
+.dark-icon {
+    color: rgb(214, 205, 190);
+}
+
+.dark-btn {
+    background-color: rgb(206, 189, 161) !important;
+}
+
+.name-btn {
+    background-color: rgb(206, 189, 161) !important;
+    box-shadow: 2px 2px 2px rgb(119, 119, 119);
+}
+
+/* --------------------------- addname portion-----------------------  */
+
+.namepart {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#personname {
+    color: rgb(27, 27, 27);
+    font-size: 25px;
+}
+
+.cardpart {
+    position: relative;
+
+    padding: 5px;
+}
+
+.cardname {
+
+    width: 300px;
+    background-color: rgb(238, 226, 207);
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.cardpart .btn {
+
+    background-color: rgb(218, 170, 93) !important;
+    border-color: rgb(219, 172, 96);
+    width: 63px;
+    height: 41px;
+    padding: 2px;
+    box-shadow: 1px 1px 1px rgb(119, 119, 119);
+
+}
+
+.cardpart .btn:hover {
+    box-shadow: none;
+}
+
+.namelist {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#addBtn,
+#removebtn {
+    box-shadow: 2px 2px 2px rgb(119, 119, 119);
+    background-color: rgb(206, 157, 79);
+    border-color: rgb(206, 157, 79);
+}
+#addBtn:hover,
+#removebtn:hover{
+    box-shadow: 5px 5px 5px rgb(119, 119, 119);
+}
+#addBtn:focus,
+#removebtn:focus {
+    box-shadow: none;
+}
+
+#namesection h1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+/* --------------------------- calculator portion------------------------- */
+
+.calculator {
+    margin-top: 10px;
+    /* padding: 20px; */
+    /* border: 4px solid rgb(66, 65, 62); */
+    box-shadow: 7px 7px 7px rgb(187, 186, 186);
+    margin-bottom: 50px;
+    /* background-color: #303233; */
+    background-color: #fff;
+    border-radius: 30px;
+
+
+
+}
+
+.calcuover {
+    padding: 20px;
+    background: rgba(189, 189, 189, 0.473);
+    border-radius: 26px;
+
+}
+
+.calcsection {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(/asset/images/calc-2.avif);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    object-fit: cover !important;
+}
+
+.calcoverlay {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(37, 37, 37, 0.473);
+    opacity: 0.8;
+}
+
+.calcsection .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.calcsection h1 {
+    font-weight: bold !important;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+.calculator input {
+    /* background-color: rgb(92, 91, 91) !important; */
+    background-color: rgb(201, 187, 169) !important;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 20px;
+    border-radius: 10px;
+    /* color: #fff; */
+    font-weight: bold;
+}
+
+.calculator .form-control:focus {
+    border: 1px solid #fff;
+    outline: 0;
+    box-shadow: none;
+    color: rgb(94, 91, 91);
+}
+
+#pcolor {
+    /* background-color: rgb(139, 81, 233) !important; */
+    background-color: rgb(206, 156, 76) !important;
+}
+
+#result {
+    /* background-color: rgb(228, 137, 167) !important; */
+    background-color: rgb(231, 219, 203) !important;
+}
+
+#cc {
+    border-radius: 200px;
+}
+
+/* --------------------- clock portion------------------------------ */
+
+.clock {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.clock .row {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hours,
+.minute,
+.second {
+    font-size: 150px;
+    font-weight: bold;
+    background-color: #fff;
+
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px 5px grey;
+    background-image: url(/asset/images/clockg-10.jpg);
+    background-size: cover;
+}
+
+.hours:hover,
+.minute:hover,
+.second:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+    background-size: auto;
+
+}
+
+.cpoint {
+    font-size: 150px;
+    font-weight: 900;
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock h1 {
+    color: rgb(139, 137, 137);
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.realdate {
+    padding-top: 30px;
+    color: rgb(139, 137, 137);
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* -------------------- api fetching portion----------- */
+
+.apifetching {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cardimg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    animation: rotation 4s infinite;
+}
+
+@keyframes rotation {
+   
+    25% {
+        transform: rotate(30deg);
+    }
+   
+    75%{
+        transform: rotate(-30deg); 
+    }
+   
+}
+
+.upcardpart {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.upcardpart p {
+    font-size: 25px;
+}
+
+.apicard {
+    padding: 5px;
+    background-color: rgb(231, 224, 172);
+    margin-bottom: 15px;
+    border: 4px solid rgb(255, 254, 254) ; 
+    box-shadow: 8px 8px 6px rgb(158, 157, 157);  
+}
+.apicard:hover{
+  
+    background-color: rgb(221, 210, 129);
+    border: 6px solid rgb(255, 252, 252) ;
+    
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
